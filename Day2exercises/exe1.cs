@@ -15,6 +15,8 @@ namespace Day2exercises
             d = Convert.ToDouble(Console.ReadLine());
             d = Math.Sqrt(d);
             Console.WriteLine("Square root of the number : {0} ", d);
+            Console.WriteLine("Im Kyaw Wint Thu :)");
+
 
         }
     }
