@@ -14,7 +14,8 @@ namespace Day2exercises
             Console.Write("Enter a double precision number : ");
             d = Convert.ToDouble(Console.ReadLine());
             d = Math.Sqrt(d);
-            Console.WriteLine("The square root of the number rounded to 3 decimal : {0:0.000}", d);
+            d = Math.Round(d, 3);
+            Console.WriteLine("The square root of the number rounded to 3 decimal : {0} ", d);
         }
 
     }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Day2exercises.exe2</StartupObject>
+    <StartupObject>Day2exercises.exe10</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="exe10.cs" />
+    <Compile Include="exe4.cs" />
     <Compile Include="exe3.cs" />
     <Compile Include="exe1.cs" />
     <Compile Include="exe2.cs" />
+    <Compile Include="exe5.cs" />
+    <Compile Include="exe6.cs" />
+    <Compile Include="exe7.cs" />
+    <Compile Include="exe8.cs" />
+    <Compile Include="exe9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
